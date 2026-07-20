@@ -25,17 +25,17 @@ Track your runs, follow guided training plans, and stay motivated with real-time
 
 ## 📸 Screenshots
 
-#1. Easy Run
-# <img src="https://raw.githubusercontent.com/suaji/Android-IPTV-Msia/refs/heads/main/Screenshot/AjieTV1.0.png" width="600px" align="center"/>
+1. Easy Run
+# <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun1.png" width="600px" align="center"/>
 
-#2. Interval Training
-# <img src="https://raw.githubusercontent.com/suaji/Android-IPTV-Msia/refs/heads/main/Screenshot/AjieTV2.0.png" width="600px" align="center"/>
+2. Interval Training
+# <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun2.png" width="600px" align="center"/>
 
-#3. Distance Training
-# <img src="https://raw.githubusercontent.com/suaji/Android-IPTV-Msia/refs/heads/main/Screenshot/AjieTV1.0.png" width="600px" align="center"/>
+3. Distance Training
+# <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun3.png" width="600px" align="center"/>
 
-#4. Profile
-# <img src="https://raw.githubusercontent.com/suaji/Android-IPTV-Msia/refs/heads/main/Screenshot/AjieTV2.0.png" width="600px" align="center"/>
+4. Profile
+# <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun4.png" width="600px" align="center"/>
 
-#5. History
-# <img src="https://raw.githubusercontent.com/suaji/Android-IPTV-Msia/refs/heads/main/Screenshot/AjieTV2.0.png" width="600px" align="center"/>
+5. History
+# <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun5.jpg" width="600px" align="center"/>

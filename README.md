@@ -39,3 +39,28 @@ Track your runs, follow guided training plans, and stay motivated with real-time
 
 5. History
 # <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun5.jpg" width="600px" align="center"/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun1.png" width="50%" height="70%" />
+</p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun2.png" width="50%" height="70%" />
+</p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun3.png" width="50%" height="70%" />
+</p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun4.png" width="50%" height="70%" />
+</p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/SmartRun/refs/heads/main/Screenshots/smartRun5.png" width="50%" height="70%" />
+</p>
+<br>
+<p align="center">
+  <img src="" width="50%" height="70%" />
+</p>
+<br>

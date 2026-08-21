@@ -149,7 +149,7 @@
 
   <h3>1.5 Third-party integrations you choose to connect</h3>
   <table>
-    <tr><th>Service</th><th>Direction</th><th>What's shared</th></tr>
+    <tr><th>Service</th><th>Direction</th><th>What's shared / How it's used</th></tr>
     <tr>
       <td>Strava</td>
       <td>Import</td>
@@ -167,6 +167,14 @@
         from Health Connect.</td>
     </tr>
     <tr>
+      <td>Google Cloud Text-to-Speech (TTS)</td>
+      <td>Processing</td>
+      <td>Premium voice features (AI Interactive Voice) send short text
+        snippets (e.g., your name, current distance) to Google Cloud APIs
+        to generate high-quality audio. This data is not stored or shared
+        by Google for other purposes.</td>
+    </tr>
+    <tr>
       <td>Google Sign-In</td>
       <td>Authentication</td>
       <td>Used only to verify your identity and create/access your
@@ -179,6 +187,7 @@
   <h2>2. How we use your information</h2>
   <ul>
     <li>To provide the app's core function: tracking, recording, and displaying your runs</li>
+    <li>To provide personalized AI greetings and motivational voice feedback ("AI Interactive Voice")</li>
     <li>To back up your run history to the cloud (Firebase/Firestore) so it's available if you switch or reinstall on a new device</li>
     <li>To let you share a summary image of your run with others, if you choose to</li>
     <li>To diagnose and fix crashes and bugs</li>
@@ -186,7 +195,21 @@
   </ul>
   <p>We do not sell your personal information to third parties. We do not use your data for advertising.</p>
 
-  <h2>3. Where your data is stored</h2>
+  <h2>3. Free vs Pro Tiers</h2>
+  <p>SmartRun offers a Free tier and a Pro subscription (SmartRun Pro) to support the app's development and premium API costs.</p>
+  <table>
+    <tr><th>Feature</th><th>Free Tier</th><th>SmartRun Pro</th></tr>
+    <tr><td>Run Tracking & History</td><td>Unlimited</td><td>Unlimited</td></tr>
+    <tr><td>Standard Voice Cues</td><td>Limited to 5km</td><td>Unlimited (Full)</td></tr>
+    <tr><td>Weather Reports</td><td>No</td><td>Yes</td></tr>
+    <tr><td>Route Heatmaps</td><td>No</td><td>Yes</td></tr>
+    <tr><td>Custom Interval Training</td><td>No</td><td>Yes</td></tr>
+    <tr><td>Custom Distance Engine</td><td>No</td><td>Yes</td></tr>
+    <tr><td>AI Interactive Voice</td><td>No</td><td>Yes</td></tr>
+  </table>
+  <p>New users may receive a "Premium Pass" (Trial), granting temporary access to all Pro features without a subscription.</p>
+
+  <h2>4. Where your data is stored</h2>
   <p>
     Your run history is stored locally on your device, and backed up to
     Google Firebase (Cloud Firestore) if you're signed in. Firebase stores

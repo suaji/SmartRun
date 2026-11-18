@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dasar Privasi - SmartRUN</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --accent: #d35400;
+    --border: #e5e5e5;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.65;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 22px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: #fafafa;
+    font-weight: 600;
+  }
+  a { color: var(--accent); }
+  .note {
+    background: #fff8f0;
+    border: 1px solid #ffe0c2;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 13.5px;
+    color: #7a4a1a;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Dasar Privasi SmartRUN</h1>
+  <p class="updated">Tarikh berkuat kuasa: 1 Jun 2026</p>
+
+  <p>
+    SmartRUN ("aplikasi", "kami") ialah aplikasi larian dan latihan peribadi.
+    Dasar Privasi ini menerangkan maklumat yang dikumpul oleh aplikasi, cara ia
+    digunakan, serta pilihan yang anda miliki. Dengan menggunakan SmartRUN, anda bersetuju
+    dengan pengumpulan dan penggunaan maklumat seperti yang dinyatakan di sini.
+  </p>
+
+  <h2>1. Maklumat yang kami kumpul</h2>
+
+  <h3>1.1 Maklumat akaun</h3>
+  <p>
+    Jika anda membuat akaun (melalui e-mel/kata laluan atau log masuk dengan
+    Google), kami mengumpul alamat e-mel dan nama paparan anda. Ini digunakan
+    untuk mengenal pasti akaun anda dan membolehkan anda log masuk pada pelbagai peranti.
+  </p>
+
+  <h3>1.2 Data lokasi (GPS)</h3>
+  <p>
+    SmartRUN menggunakan GPS peranti anda untuk merakam laluan, jarak, dan
+    pace larian anda semasa larian sedang aktif, termasuk semasa aplikasi berada di
+    latar belakang (*background*) supaya penjejakan diteruskan walaupun skrin anda ditutup
+    atau anda beralih ke aplikasi lain semasa berlari. Data lokasi hanya dikumpul
+    semasa larian aktif sahaja - aplikasi tidak menjejak lokasi anda pada bila-bila masa yang lain.
+    <br><br>
+    Ini penting untuk memastikan jarak dan pace larian anda kekal tepat walaupun
+    telefon berada di dalam poket atau skrin dikunci.
+    <strong>Data lokasi tidak pernah dijual, dikongsi dengan pihak ketiga, atau digunakan untuk tujuan pengiklanan.</strong>
+  </p>
+
+  <h3>1.3 Sejarah larian dan data kecergasan</h3>
+  <p>Kami menyimpan data larian yang anda jana semasa menggunakan aplikasi, merangkumi:</p>
+  <ul>
+    <li>Jarak, tempoh, pace, dan laluan (koordinat GPS) bagi setiap larian</li>
+    <li>Jenis senaman (latihan selang (*interval training*), sasaran jarak, dsb.)</li>
+    <li>Foto pilihan yang anda lampirkan pada larian ("selfie")</li>
+    <li>Berat badan dan matlamat stamina anda, jika anda memilih untuk memasukkannya (digunakan hanya untuk menganggarkan kalori yang dibakar)</li>
+  </ul>
+
+  <h3>1.4 Data diagnostik dan kerosakan (Crash data)</h3>
+  <p>
+    Kami menggunakan Firebase Crashlytics untuk mengumpul laporan kerosakan (*crash reports*)
+    secara automatik serta maklumat diagnostik peranti/aplikasi asas (model peranti, versi OS,
+    versi aplikasi, dan log teknikal) apabila aplikasi mengalami ralat atau ranap. Ini membantu
+    kami mengesan dan membaiki pepijat. Data ini tidak dikaitkan dengan identiti anda selain
+    daripada pengecam peranti/pemasangan dalaman.
+  </p>
+
+  <h3>1.5 Integrasi pihak ketiga yang anda pilih untuk sambungkan</h3>
+  <table>
+    <tr><th>Perkhidmatan</th><th>Arah</th><th>Apa yang dikongsi / Cara ia digunakan</th></tr>
+    <tr>
+      <td>Strava</td>
+      <td>Import</td>
+      <td>Jika anda menyambungkan akaun Strava anda, kami membaca aktiviti larian lepas anda
+        (jarak, masa, laluan, pace) dari Strava dan menyalinnya ke dalam sejarah SmartRUN anda.
+        Kami tidak menghantar atau memuat naik apa-apa ke akaun Strava anda.</td>
+    </tr>
+    <tr>
+      <td>Google Health / Health Connect</td>
+      <td>Eksport</td>
+      <td>Jika anda mendayakannya, kami menulis larian SmartRUN yang telah selesai
+        (jarak, tempoh, jenis senaman) ke Android Health Connect, supaya aplikasi kesihatan lain
+        yang anda gunakan boleh memaparkannya. Kami tidak membaca sebarang data daripada Health Connect.
+        Data kesihatan dikendalikan mengikut pematuhan ketat dasar Google Play Health Apps dan tidak pernah digunakan untuk pengiklanan.</td>
+    </tr>
+    <tr>
+      <td>Perkhidmatan Pemprosesan AI Selamat</td>
+      <td>Pemprosesan</td>
+      <td>Untuk menyediakan ciri "Ayana AI Coach", sejarah larian anda yang tidak mengenalkan peribadi
+        serta konteks cuaca semasa diproses melalui proksi rangkaian selamat yang disulitkan kepada perkhidmatan awan AI.
+        Tiada data akaun peribadi yang dikongsi dengan pembekal AI pihak ketiga.</td>
+    </tr>
+    <tr>
+      <td>Cloud Text-to-Speech (TTS)</td>
+      <td>Pemprosesan</td>
+      <td>Ciri suara premium (Suara Interaktif AI) menghantar petikan teks pendek
+        (cth., nama anda, jarak semasa) ke API awan selamat untuk menjana audio berkualiti tinggi.
+        Data ini tidak disimpan atau dikongsi untuk tujuan lain.</td>
+    </tr>
+    <tr>
+      <td>Log Masuk Google (Google Sign-In)</td>
+      <td>Pengesahan</td>
+      <td>Digunakan hanya untuk mengesahkan identiti anda dan mencipta/mengakses akaun anda.
+        Kami menerima nama, e-mel, dan URL foto profil anda daripada Google; kami tidak mengakses
+        data Google anda yang lain.</td>
+    </tr>
+  </table>
+  <p>Setiap integrasi ini adalah atas pilihan anda sendiri dan hanya aktif jika anda menyambungkannya secara eksplisit dalam tetapan Profil.</p>
+
+  <h2>2. Bagaimana kami menggunakan maklumat anda</h2>
+  <ul>
+    <li>Untuk menyediakan fungsi teras aplikasi: menjejak, merakam, dan memaparkan larian anda</li>
+    <li>Untuk menyediakan ucapan peribadi AI dan maklum balas suara motivasi ("Suara Interaktif AI")</li>
+    <li>Untuk membuat sandaran sejarah larian anda ke awan (Firebase/Firestore) supaya ia tersedia jika anda beralih atau memasang semula pada peranti baharu</li>
+    <li>Untuk membolehkan anda berkongsi imej ringkasan larian anda dengan orang lain, jika anda mahu</li>
+    <li>Untuk mengesan dan membaiki ralat serta pepijat</li>
+    <li>Untuk menyediakan ciri Pro pilihan, jika anda melanggan atau berada dalam tempoh percubaan percuma SmartRun Pro</li>
+  </ul>
+  <p>Kami tidak menjual maklumat peribadi anda kepada pihak ketiga. Kami tidak menggunakan data anda untuk pengiklanan.</p>
+
+  <h2>3. Peringkat Percuma vs Pro</h2>
+  <p>SmartRUN menawarkan Peringkat Percuma dan langganan Pro (SmartRUN Pro) untuk menyokong pembangunan aplikasi dan kos API premium.</p>
+  <table>
+    <tr><th>Ciri</th><th>Peringkat Percuma</th><th>SmartRUN Pro</th></tr>
+    <tr><td>Sejarah Tanpa Had (Unlimited History)</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Larian Mudah & Selang (Easy & Interval Run)</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Main Semula Skyline 2D/3D</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Jeda/Sambung Automatik (Auto Pause/Resume)</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Pertukar Peta Pintar Automatik</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Cuaca Masa Nyata</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Ucapan Suara AI</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Ringkasan Selepas Larian AI</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Jurulatih Langsung AI (Live Coach)</td><td>Ya</td><td>Ya</td></tr>
+    <tr><td>Nasihat Sembang Jurulatih AI</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Analisis Trend Latihan AI</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Wawasan Pemulihan Lanjutan</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Semakan Kemajuan Mingguan</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Tip Latihan Peribadi</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Pelan Latihan Tersuai</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Peta Haba Laluan Peribadi</td><td>Tidak</td><td>Ya</td></tr>
+    <tr><td>Mod Sasaran Jarak</td><td>Sehingga 5KM</td><td>Penuh (Sehingga 42KM)</td></tr>
+    <tr><td>Akses Pro Percuma (Gifted Pro)</td><td>60 Hari</td><td>-</td></tr>
+  </table>
+  <p>Pengguna baharu mungkin menerima "Akses Pro Percuma" (Percubaan), memberikan akses sementara kepada semua ciri Pro tanpa langganan.</p>
+
+  <h2>4. Di mana data anda disimpan</h2>
+  <p>
+    Sejarah larian anda disimpan secara lokal pada peranti anda, dan disandarkan ke
+    Google Firebase (Cloud Firestore) jika anda log masuk. Firebase menyimpan
+    data pada infrastruktur Google Cloud. Pengesahan diuruskan oleh
+    Firebase Authentication.
+  </p>
+
+  <h2>5. Pilihan dan hak anda</h2>
+  <ul>
+    <li><strong>Padam larian:</strong> Anda boleh memadam sebarang larian individu daripada sejarah anda pada bila-bila masa.</li>
+    <li><strong>Padam akaun anda:</strong> Anda boleh memadam akaun anda secara kekal berserta semua data awan dan lokal pada bila-bila masa melalui Profil &gt; Padam Akaun (atau melalui permintaan web ke e-mel sokongan kami). Tindakan ini tidak boleh ditarik balik.</li>
+    <li><strong>Nyahsambung integrasi:</strong> Anda boleh menyahsambung Strava atau Google Health/Health Connect pada bila-bila masa melalui Profil &gt; Sambungkan Aplikasi Rakan.</li>
+    <li><strong>Kebenaran lokasi:</strong> Anda boleh menarik balik kebenaran lokasi pada bila-bila masa dalam tetapan peranti anda, walaupun ini akan menghalang ciri teras penjejakan larian aplikasi daripada berfungsi.</li>
+  </ul>
+
+  <h2>6. Pengekalan data (Data retention)</h2>
+  <p>
+    Kami mengekalkan data akaun dan sejarah larian anda selagi akaun anda
+    aktif. Jika anda memadam akaun anda, data anda akan dipadamkan
+    daripada storan awan kami; data yang disimpan secara lokal pada peranti anda turut dipadamkan
+    pada masa yang sama. Data diagnostik/kerosakan mungkin disimpan secara berasingan
+    untuk tempoh yang terhad bagi tujuan nyahpepijat (*debugging*).
+  </p>
+
+  <h2>7. Privasi kanak-kanak</h2>
+  <p>
+    SmartRUN tidak disasarkan kepada kanak-kanak di bawah umur 13 tahun (atau umur minimum
+    yang relevan di negara anda), dan kami tidak dengan sengaja mengumpul maklumat peribadi
+    daripada kanak-kanak di bawah umur tersebut.
+  </p>
+
+  <h2>8. Perubahan kepada dasar ini</h2>
+  <p>
+    Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Jika kami membuat
+    perubahan ketara, kami akan mengemas kini "Tarikh berkuat kuasa" di atas dan, jika
+    sesuai, memaklumkan kepada anda di dalam aplikasi.
+  </p>
+
+  <h2>9. Hubungi kami</h2>
+  <p>
+    Jika anda mempunyai sebarang soalan mengenai Dasar Privasi ini atau data anda,
+    sila hubungi kami di:
+    <a href="mailto:suajie@gmail.com">suajie@gmail.com</a>
+  </p>
+
+  <footer>
+    &copy; 2026 SmartRUN. Latihan Dikuasakan oleh Ajie.AI. Hak cipta terpelihara.
+  </footer>
+
+</div>
+</body>
+</html>
